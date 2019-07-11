@@ -1,0 +1,19 @@
+{
+    "name": "han/nmw",
+    "require": {
+        "php": "^7.3",
+        "smarty/smarty": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "xiaohan",
+            "email": "xiaohanst@aliyun.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Nmw\\": "src/",
+			"App\\": "demo/application/"
+		}
+	}
+}
