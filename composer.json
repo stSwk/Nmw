@@ -10,10 +10,11 @@
             "email": "xiaohanst@aliyun.com"
         }
     ],
-	"autoload": {
-		"psr-4": {
-			"Nmw\\": "src/",
-			"App\\": "demo/application/"
+		"minimum-stability": "stable",
+		"autoload": {
+				"psr-4": {
+				"Nmw\\": "src/",
+				"App\\": "demo/application/"
 		}
 	}
 }
