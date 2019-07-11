@@ -1,5 +1,5 @@
 {
-    "name": "han/nmw",
+    "name": "swk/nmw",
     "require": {
         "php": "^7.3",
         "smarty/smarty": "^3.1"
