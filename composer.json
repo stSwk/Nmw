@@ -1,15 +1,12 @@
 {
     "name": "swk/nmw",
-    "type": "project",
     "require": {
         "php": "^7.3"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "xiaohan",
             "email": "xiaohanst@aliyun.com"
         }
-    ],
-    "minimum-stability": "stable"
+    ]
 }
