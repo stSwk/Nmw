@@ -1,20 +1,15 @@
 {
     "name": "swk/nmw",
+    "type": "project",
     "require": {
-        "php": "^7.3",
-        "smarty/smarty": "^3.1"
+        "php": "^7.3"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "xiaohan",
             "email": "xiaohanst@aliyun.com"
         }
     ],
-		"minimum-stability": "stable",
-		"autoload": {
-				"psr-4": {
-				"Nmw\\": "src/",
-				"App\\": "demo/application/"
-		}
-	}
+    "minimum-stability": "stable"
 }
