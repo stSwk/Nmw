@@ -1,12 +1,19 @@
 {
     "name": "swk/nmw",
     "require": {
-        "php": "^7.3"
+        "php": "^7.3",
+        "smarty/smarty": "^3.1"
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "xiaohan",
             "email": "xiaohanst@aliyun.com"
         }
-    ]
+    ],
+		"autoload": {
+				"psr-4": {
+						"Nmw\\": "src/Nmw/"
+				}
+		}
 }
